@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wync_Music</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Dosis:wght@500&family=Fredoka+One&family=Montserrat:wght@700&family=Pacifico&family=Roboto+Mono:wght@500&family=Rubik:wght@500&family=Sacramento&family=Source+Sans+Pro:ital,wght@1,600&family=Tilt+Neon&family=Ubuntu:wght@400;500&family=Unbounded:wght@600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="logo.png" alt="Wync_logo"><span class="logo_disc">Wync Music</span> </li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Latest Songs....</h1>
+        <div>
+          <div class="songItem">
+            <img  alt="song_pic">
+            <span class="songName">Kesariya Tera</span>
+            <span class="songListPlay"> <span class="timestamp"> 5:40<i id="0" class="fa-regular songItemPlay  fa-circle-play"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img  alt="song_pic">
+            <span class="songName">Kesariya Tera..</span>
+            <span class="songListPlay"> <span class="timestamp"> 3:47<i id="1" class="fa-regular songItemPlay  fa-circle-play"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img  alt="song_pic">
+            <span class="songName">Kesariya Tera..</span>
+            <span class="songListPlay"> <span class="timestamp"> 4:40<i id="2" class="fa-regular songItemPlay  fa-circle-play"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img  alt="song_pic">
+            <span class="songName">Kesariya Tera</span>
+            <span class="songListPlay"> <span class="timestamp"> 3:20<i id="3" class="fa-regular songItemPlay  fa-circle-play"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img  alt="song_pic">
+            <span class="songName">Kesariya Tera</span>
+            <span class="songListPlay"> <span class="timestamp"> 5:31<i id="4" class="fa-regular songItemPlay  fa-circle-play"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img  alt="song_pic">
+            <span class="songName">Kesariya Tera..</span>
+            <span class="songListPlay"> <span class="timestamp"> 4:30<i id="5" class="fa-regular songItemPlay  fa-circle-play"></i></span></span>
+          </div>
+          
+        
+        </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" value="0" id="myProgressBar" min="0" max="100" >
+
+        <div class="icons">
+            <!-- Fontawesome Icons -->
+            <i class="fa-sharp fa-2x fa-solid fa-backward" id="previous"></i>
+            <i class="fa-regular fa-2x fa-circle-play"  id="masterPlay"></i>
+            <i class="fa-sharp fa-2x fa-solid fa-forward" id="next"></i>       
+        </div>
+        
+        <div class="songGif">
+            <img src="itunes.gif" alt="tunes" width="33px" id="gif"> <span id="bottomLyric">Kesariya Tera</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/52e65af2d4.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
